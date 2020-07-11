@@ -284,16 +284,28 @@ Gustavo Guanabara ensina linguagens de programação no site do [curso em video]
 As imagens são feitas da mesma forma que os links, mas com um ponto de exclamação na frente.
 
 ![Markdown](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1280px-Markdown-mark.svg.png)
-
+<br>
 # 10 - Tabelas
+<br>
 
+Para fazer tabelas é preciso colocar  o texto + os símbolo (|) para fazer as colunas da tabela e (---) para fazer as linhas da tabela.
 
 Nome  |Idade | Função
-------|-----|--
+---|---|---
 Pedro |  30 | aux. administrativo
 Maria |  25 | programador
 Joana | 90 | aposentado
 Marcelo| 40 | eletricista
+
+
+Num | Nome | Nota
+---|---|---
+1 | Gustavo| 8,5
+2 | José| 10
+3 | Maria|9,0
+4 | João | 5,5
+5 | Lúcia | 7,5
+6 | Vanessa | 9,5
 
 
 
