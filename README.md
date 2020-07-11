@@ -279,7 +279,7 @@ Gustavo Guanabara ensina linguagens de programação no site do [curso em video]
 
 ## 8.3 - Link interno
 
-Veja o [Título](../titulo)
+Veja o [Título](../# 1 - Títulos)
 
 
 
