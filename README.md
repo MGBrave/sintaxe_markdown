@@ -275,11 +275,27 @@ Gustavo Guanabara ensina linguagens de programação no site do [curso em video]
 
  Para criar link automáticos basta colocar a url entre os símbolos < >.
 
-<http://www.google.com>
+<http://www.google.com>  
 
-## 8.3 - Link interno
 
-Veja o [Título](../# 1 - Títulos)
+# 9 - Imagens
+<br>
+
+As imagens são feitas da mesma forma que os links, mas com um ponto de exclamação na frente.
+
+![Markdown](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1280px-Markdown-mark.svg.png)
+
+# 10 - Tabelas
+
+
+Nome  |Idade | Função
+------|-----|--
+Pedro |  30 | aux. administrativo
+Maria |  25 | programador
+Joana | 90 | aposentado
+Marcelo| 40 | eletricista
+
+
 
 
 
