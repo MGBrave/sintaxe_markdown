@@ -162,15 +162,61 @@ Para criar lista desordenada podemos utilizar símbolos de asterisco(*), traço(
 * carne
 <br>
 
-## 6.2 - Listas dentro de outra
+## 6.2 - Lista demarcada
 
 <br>
+
 Para gerar uma lista dentro de outra, é preciso colocar quatro espaços em branco antes do símbolo de asterisco, traço e soma.
 
-- Lista de Supermercado
-    - Limpeza
-        - Sabão em pó
-        - amaciante
+* Teste
+* Teste
+* Teste
+   * subitem
+   * subitem
+* teste
+- teste (pode ser tracinho)
+        
+## 6.3 - Lista numerada
+
+É preciso colocar um número + um ponto + espaço.
+
+1. Teste 1
+2. Teste 2
+1. Teste 3
+6. Teste 4
+
+A numeração permanece normal, mesmo que coloque números desordenados.
+
+1. teste
+   1. teste (3 espaços: subitem 1)
+   2. teste
+   3. teste
+   4. teste
+   999. teste
+0. teste
+8. teste
+
+<br>
+
+## 6.4 - Lista com caixas de marcação
+
+<br>
+
+É preciso colocar um traço + espaço + abrir e fechar colchetes com um espaço interno, e se quiser marcar na caixa o que já foi realizado, colocar um x em seu interior:(- [x] Criar a página principal).
+
+- [x] Criar a página principal
+- [ ] Criar a página da loja
+- [ ] Finalizar a reunião com o cliente
+- [ ] Receber pagamento
+
+<br>
+
+# 7 - Blocos de códigos separados
+<br>
+
+É possível criar blocos de código separados, colocando-se três aspas triplas, antes e depois do bloco de código.
+
+
        
 
 
