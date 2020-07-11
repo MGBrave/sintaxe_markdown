@@ -33,11 +33,14 @@ h2 - O Navio Negreiro, de Castro Alves
 <br>
 
 
-Para separar as sessões na página, basta que ponha três ou mais asteriscos, traços e underlines.
-
+Para separar as sessões na página, basta que ponha três ou mais asteriscos, traços e underlines. Pode separá-los ou não por espaços.
+<br>
 ______
 -----
 ***
+
+* * * *
+- - - -
 
 <br>
 
@@ -202,7 +205,7 @@ A numeração permanece normal, mesmo que coloque números desordenados.
 
 <br>
 
-É preciso colocar um traço + espaço + abrir e fechar colchetes com um espaço interno, e se quiser marcar na caixa o que já foi realizado, colocar um x em seu interior:(- [x] Criar a página principal).
+ É preciso colocar um traço + espaço + abrir e fechar colchetes com um espaço interno, e se quiser marcar na caixa o que já foi realizado, colocar um x em seu interior:(- [x] Criar a página principal).
 
 - [x] Criar a página principal
 - [ ] Criar a página da loja
@@ -214,7 +217,80 @@ A numeração permanece normal, mesmo que coloque números desordenados.
 # 7 - Blocos de códigos separados
 <br>
 
-É possível criar blocos de código separados, colocando-se três aspas triplas, antes e depois do bloco de código.
+É possível criar blocos de código separados, colocando-se três crases para linguagens, antes e depois do bloco de código.
+
+
+ Não entendo direito para que serve o comando `document.getElementById()` da linguagem JavaScript
+
+ Olha meu programa em Python (três crases para linguagens)
+
+```
+num = int(input('Digite um valor: ')
+if num %2== 0:
+    print(f'O valor{num} é PAR')
+else:
+    print(f'O valor {num} é Impar')
+    
+```
+## 7.1 - Realce da Sintaxe
+<br>
+
+ É possível incluir um identificador de linguagem para habilitar  o realce de sintaxe no bloco de código isolado.
+
+
+```python
+num = int(input('Digite um valor: ')
+if num %2== 0:
+    print(f'O valor{num} é PAR')
+else:
+    print(f'O valor {num} é Impar')
+    
+```
+
+```ruby
+class Pagamento
+  def update( funcionario )
+    puts("Aumentando salário do #{funcionario.nome}!")
+    puts("Seu novo salário é #{funcionario.salario}!")
+  end
+```
+# 8 - Links
+<br>
+
+##  8.1 - Link externo
+<br>
+
+Para colocar link externo, o texto a ser exibido deve ser colocado entre colchetes [] seguido pela url em parênteses ().
+ <br>
+
+GitHub: [martageraldo](https://github.com/martageraldo)  
+Linkedin: [marta-geraldo](www.linkedin.com/in/marta-geraldo)  
+Twitter: [@martageraldo](https://twitter.com/home)  
+
+
+Gustavo Guanabara ensina linguagens de programação no site do [curso em video](https://www.cursoemvideo.com), no seu canal do [youtube](https://www.youtube.com/user/cursosemvideo) e também no [Estudonauta e no Apoie-me](https://apoie.me/cursoemvideo).
+
+## 8.2 - Link automático
+<br>
+
+ Para criar link automáticos basta colocar a url entre os símbolos < >.
+
+<http://www.google.com>
+
+## 8.3 - Link interno
+
+Veja o [Título](../titulo)
+
+
+
+
+
+
+
+
+
+
+
 
 
        
